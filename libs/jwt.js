@@ -10,7 +10,7 @@ const auth0_key= (req,res)=>{
   var options = { method: 'POST',
   url: 'https://dev-ceh5tizc.auth0.com/oauth/token',
   headers: { 'content-type': 'application/json' },
-  body: '{"client_id":"HHhp1s1Ak8Rk7qo6clXXjWJkjU1tP3VM","client_secret":"t4imVJmVGs9m4-jatWqqOtq8lxX6YICLEN5RJRwI-gnD9NGWUJN7DWQbPxNJddYA","audience":"http://books","grant_type":"client_credentials"}' };
+  body: '{"client_id":"","client_secret":"","audience":"http://books","grant_type":"client_credentials"}' };
 
 request(options, function (error, response, body) {
   if (error) throw new Error(error);
